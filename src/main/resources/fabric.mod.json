@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "emized-botany-pots",
+	"version": "${version}",
+	"name": "EMIzed Botany Pots",
+	"description": "EMI integration for Botany Pots",
+	"authors": [
+		"Skye"
+	],
+	"contact": {
+		"sources": "https://github.com/vgskye/emized-botany-pots"
+	},
+	"license": "MIT-0",
+	"icon": "assets/emized-botany-pots/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"emi": [
+			"vg.skye.emized_botany_pots.BotanyPotsEmiPlugin"
+		]
+	},
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"fabric-language-kotlin": ">=1.9.22",
+		"emi": "*",
+		"botanypots": "*"
+	}
+}
